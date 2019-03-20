@@ -13,8 +13,12 @@ var nowServing = line => {
 
 var currentLine = line => {
   if( line.length>0 ) {
-    
+    let string="";
+    for( let l=0; l<line.length; l++ ) {
+      
+    }
+    return string;
   } else {
-    return 
+    return "The line is currently empty.";
   }
 } 
