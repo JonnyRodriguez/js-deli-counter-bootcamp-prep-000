@@ -15,7 +15,7 @@ var currentLine = line => {
   if( line.length>0 ) {
     let string="The line is currently:";
     for( let l=0; l<line.length; l++ ) {
-      string+=`${l+1}. ${line[l]}`;
+      string+=` ${l+1}. ${line[l]}`;
     }
     return string;
   } else {
