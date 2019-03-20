@@ -5,7 +5,7 @@ var takeANumber = (line,name) => {
 
 var nowServing = line => {
   if( line.length>0 ) {
-    return line.shift();
+    return `Currently serving ${line.shift()}`;
   } else {
      return "There is nobody waiting to be served!";
   }
