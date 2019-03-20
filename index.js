@@ -9,4 +9,12 @@ var nowServing = line => {
   } else {
      return "There is nobody waiting to be served!";
   }
-}
+};
+
+var currentLine = line => {
+  if( line.length>0 ) {
+    
+  } else {
+    return 
+  }
+} 
